@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="utf-8">
+  <title>Выравнивание по центру</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/common.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+ </head>
+ <body>
+  <div class="container calc">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="calc">
+          <div class="form-group">
+            <label for="page-size" class="form-first-label">Размер страницы</label>
+            <select class="form-control" id="page-size">
+              <option selected>Размер страницы</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="page-size" class="form-first-label">Кол-во разворотов</label>
+            <input class="form-control" type="number" size="3" min="1" value="1" id="qty">
+          </div>
+          <div class="form-group">
+            <label for="cover" class="form-first-label">Вид обложки</label>
+            <select class="form-control" id="cover">
+              <option>Вид обложки</option>
+            </select>
+          </div>     
+        </div>     
+      </div> 
+      <div class="col-md-6">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Наименование</th>
+              <th>Цена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Размер страницы</td>
+              <td class="page-size">-</td>
+            </tr>
+            <tr>
+              <td>Количество разворотов</td>
+              <td class="qty">-</td>
+            </tr>
+            <tr>
+              <td>Цена обложки</td>
+              <td class="cover">-</td>
+            </tr>
+            <tr>
+              <td>Цена на форзац</td>
+              <td class="endpaper">-</td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td class="sum">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>      
+    </div>         
+  </div>  
+</body>
+</html>

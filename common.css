@@ -1,0 +1,16 @@
+    .calc {
+      margin-top: 50px;
+    }
+    .form-control {
+      display: block;
+    }
+    .form-first-label {
+      font-weight: 600;
+      font-family: "arial";
+    }
+    .table {
+      border-bottom: 2px;
+    }
+    .page-size {
+      border-bottom: 2px;
+    }
